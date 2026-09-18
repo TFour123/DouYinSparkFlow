@@ -7,7 +7,6 @@ jobs:
   run-main:
     timeout-minutes: 20
     runs-on: ubuntu-latest
-    environment: user-data
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python
